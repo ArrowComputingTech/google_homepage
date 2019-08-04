@@ -1,0 +1,174 @@
+.mainbox
+{
+    left: 0px;
+    right: 0px;
+}
+
+#logo
+{
+    padding-top: 180px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topbar
+{
+    padding: 12px;
+    display: inline-block;
+}
+.topbar-left
+{
+    position: absolute;
+}
+.topbutton
+{
+    background: transparent;
+    border: 4px;
+    border-color: rgb(97, 97, 97);
+    border-radius: 12px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.topbutton:hover
+{
+    color: rgb(141, 141, 141);
+    image
+}
+.topbutton1
+{
+    border: none;
+}
+.topbutton2
+{
+    border: none;
+}
+.topbar-right
+{
+    position: absolute;
+    right: 20px;
+}
+.topbutton3
+{
+    border: none;
+}
+.topbutton4
+{
+    border: none;
+}
+.topbutton5
+{
+    vertical-align: middle;
+}
+.topbutton5image:hover
+{
+    filter: drop-shadow(-2px 2px 1px);
+}
+
+.searchbar
+{
+    background-color: #FFFFFF;
+    border: 2px solid #CCCCCC;
+    border-color: rgb(187, 187, 187);
+    border-radius: 48px;
+    box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4px;
+    height: 60px;
+    width: 600px;
+}
+.searchbar:hover
+{
+    border-color: rgb(145, 145, 145);
+}
+.searchbox1
+{
+    box-align: center;
+    display: block;
+    height: 40px;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.searchbuttons
+{
+    padding: 60px;
+    text-align: center;
+}
+
+.searchbutton
+{
+    background: rgb(235, 235, 235);
+    border: 8px;
+    border-color: rgb(97, 97, 97);
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 18px;
+    font-family: arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+ 
+}
+.searchbutton:hover
+{
+    background: rgb(197, 197, 197);
+}
+
+.bottombar
+{
+    background-color: rgb(238, 238, 238);
+    box-sizing: unset;
+    bottom: 0px;
+    height: 50px;
+    left: 0px;
+    margin-top: 100px;
+    position: sticky;
+    right: 0px;
+    top: 560px;
+    width: initial;
+
+}
+.bottombuttons
+{
+    padding-top: 14px;
+    padding-left: 30px;
+}
+.bottombutton
+{
+    background-color: transparent;
+    border: none;
+    color: rgb(129, 129, 129);
+    float: left;
+    position: sticky;
+    left: auto;
+    right: auto;
+}
+.bottombutton:hover
+{
+    color: rgb(0, 0, 0)
+}
+.bottomrightbuttons
+{
+    padding-right: 40px;
+}
+.bottomrightbutton
+{
+    float: right;
+}
